@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Объем икосаэдра</title>
+    <!-- Указываем путь к CSS файлу, который лежит в папке выше в css -->
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+    <!-- Контейнер для формы и вывода результата -->
+    <div class="container">
+        <!-- Заголовок формы -->
+        <h1>Расчет объема икосаэдра</h1>
+        
+        <!-- Поле ввода для длины ребра -->
+        <input type="number" id="edgeLength" placeholder="Введите длину ребра икосаэдра" />
+        <!-- Кнопка для расчета объема -->
+        <button onclick="calculateVolume()">Рассчитать объем</button>
+        
+        <!-- Элемент для отображения результата -->
+        <p id="result"></p>
+    </div>
+    <!-- Указываем путь к JS файлу, который лежит в папке выше в js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
